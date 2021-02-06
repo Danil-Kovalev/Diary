@@ -18,9 +18,12 @@ public:
 public slots:
     void dateEvent();
     void timeEvent();
+    void nameEvent();
     void saveOutputEvents();
+    void openFile();
 
 private:
     Ui::MainWindow *ui;
+    QString currentFile;
 };
 #endif // MAINWINDOW_H
