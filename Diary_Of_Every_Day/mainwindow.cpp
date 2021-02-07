@@ -75,7 +75,7 @@ void MainWindow::deleteEvents()
 void MainWindow::openFile()
 {
     QString path = ("E:\\Event");
-    QDir currentDir(path);
-    QStringList items = currentDir.entryList(QDir::Files |QDir::NoDotAndDotDot);
-    ui->listWidget->addItems(items);
+    QDir current(path);
+    QStringList files = current.entryList(QDir::Files |QDir::NoDotAndDotDot);
+    ui->listWidget->addItems(files);
 }
