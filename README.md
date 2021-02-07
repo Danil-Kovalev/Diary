@@ -1,0 +1,1 @@
+Diary, which must you can save the created events, as well as delete them. The event should have it`s own name and a short description. The planner should display a reminder of the scheduled event on the desktop 10 minutes before it`s start. The program must have an icon in the program tray.
