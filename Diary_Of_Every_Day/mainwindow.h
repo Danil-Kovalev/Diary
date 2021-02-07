@@ -20,6 +20,7 @@ public slots:
     void timeEvent();
     void nameEvent();
     void saveOutputEvents();
+    void deleteEvents();
     void openFile();
 
 private:
